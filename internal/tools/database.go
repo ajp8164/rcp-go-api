@@ -20,11 +20,6 @@ type Club struct {
 	Boating          bool     `json:"boating"`
 }
 
-// type Location struct {
-// 	Latitude float32
-// 	Longitude float32
-// }
-
 type Address struct {
 	Street string  `json:"street"`
 	City   string  `json:"city"`
